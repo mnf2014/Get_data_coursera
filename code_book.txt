@@ -1,0 +1,42 @@
+In the final_file.txt file you will find a summary of the data collected by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto with the accelerometers from the Samsung Galaxy S smartphone. A full description of this study is provided in
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+
+The final_file.txt corresponds to a table with information about the mean and standard deviation values of the different measures performed in the study above mentioned. This file has 81 columns and 180 rows.
+
+Variables(columns)
+
+In the work developped by Ghio et al., it was taken a group of 30 volunteers, for each one 6 activities were performed and for each activity several measurements were taken.
+
+In the data set final_file.txt, the persons correspond to the column named subject (column 1)
+                 the activities correspond to the column named activity (column 2) and were clasified as: 
+ 
+ WALKING
+ WALKING_UP
+ WALKING_DO
+ SITTING
+ STANDING
+ LAYING
+
+From column 3 to column 81 we have the mean and standard deviation of the different measurements performed in each cartesian coordinate (x,y,z). The prefix t or f correspond to time or frequency. 
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+The final_file.txt has 180 rows (30 volunteers x 6 activities=180) and 81 columns  (from 3 to 81 they are the mean value of the mean or standard deviation of the variables/measurements taken in the experiment). 
